@@ -57,7 +57,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/DKBOTx/TovinoBotV3
+git clone https://github.com/Dk-Botz/TovinoBotV3
 # Install Packages
 pip3 install -U -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -125,7 +125,7 @@ Fork the repo and edit as per your needs. 𝘛𝘩𝘦𝘴𝘦 𝘢𝘳𝘦 𝘭
 
 ## Disclaimer
 [![GNU Affero General Public License 2.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
-Licensed under [GNU AGPL 2.0.](https://github.com/DKBOTx/TovinoBotV3/blob/main/LICENSE)
+Licensed under [GNU AGPL 2.0.](https://github.com/Dk-Botz/TovinoBotV3/blob/main/LICENSE)
 Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
 ## 𝙏𝙍𝙄𝘽𝙐𝙏𝙀 𝙏𝙊
