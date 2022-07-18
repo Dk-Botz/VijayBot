@@ -105,7 +105,7 @@ python3 bot.py
 
 ## Bot
 
-[𝙏𝙤𝙫𝙞𝙣𝙤 𝘽𝙤𝙩](https://telegram.dog/FILTERxAUTOBOT)
+[𝙑𝙄𝙅𝘼𝙔 𝘽𝙊𝙏](https://telegram.dog/FILTERxAUTOBOT)
 
 ## Credits 
 * [𝘉𝘈𝘚𝘌 𝘙𝘌𝘗𝘖 𝘜𝘚𝘌𝘋](https://github.com/EvamariaTG/EvaMaria)
