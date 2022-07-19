@@ -15,9 +15,9 @@
       "index",
       "inline",
       "Redirect Bot",
-      "Tovino Bot"
+      "Vijay Bot"
     ],
-    "website": "https://github.com/DKBOTx/TovinoBotV3",
+    "website": "https://github.com/Dk-Botz/TovinoBotV3",
     "repository": "https://github.com/Dk-Botz/TovinoBotV3",
     "env": {
         "BOT_TOKEN": {
