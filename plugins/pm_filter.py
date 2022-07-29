@@ -426,11 +426,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>Hai 👋 {query.from_user.mention}</b> 😍\n\n<code>[DKxBOTz] {title}</code>\n\n⚠️ <i>This file will be deleted from here within 5 minute as it has copyright ... !!!</i>\n\n<i>കോപ്പിറൈറ്റ് ഉള്ളതുകൊണ്ട് ഫയൽ 5 മിനിറ്റിനുള്ളിൽ ഇവിടെനിന്നും ഡിലീറ്റ് ആകുന്നതാണ് അതുകൊണ്ട് ഇവിടെ നിന്നും മറ്റെവിടെക്കെങ്കിലും മാറ്റിയതിന് ശേഷം ഡൗൺലോഡ് ചെയ്യുക!</i>\n\n<i><b>⚡ Powered by {query.message.chat.title}</b></i>',
+                caption=f'<b>Hᴀɪ 👋 {query.from_user.mention}</b> »ʏᴏᴜʀ ғɪʟᴇ\n\n<code>[DKxBOTz] {title}</code>\n\n🍭 Gʀᴏᴜᴘ {query.message.chat.title}</b></i>',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
-                f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
+                f'<b> Hᴀɪ 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Yᴏᴜʀ Fɪʟᴇ Is Rᴇᴀᴅʏ</b>\n\n'           
                 f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTz] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>',
                 True,
@@ -438,10 +438,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📥 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖫𝗂𝗇𝗄 📥 ', url = msg.link)
+                            InlineKeyboardButton('📥 Dᴏᴡɴʟᴏᴀᴅ ʟɪɴK 📥 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("⚠️ 𝖢𝖺𝗇'𝗍 𝖠𝖼𝖼𝖾𝗌𝗌 ❓ 𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾 ⚠️", url=f'https://t.me/FILTERxAUTOBOT')
+                            InlineKeyboardButton("⚠️ Cᴀɴ'ᴛ ᴀᴄᴄᴇsS ❓ Cʟɪᴄᴋ ʜᴇʀE ⚠️", url=f'https://t.me/FILTERxAUTOBOT')
                         ]
                     ]
                 )
@@ -580,7 +580,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "weather":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -590,7 +590,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "cntry":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -600,7 +600,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='start')
+            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
@@ -611,7 +611,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "gtrans":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -621,7 +621,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "urlshrt":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -631,7 +631,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "trnt":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -641,7 +641,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tts":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -651,7 +651,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "mute":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -661,7 +661,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tts":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -671,7 +671,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "song":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -681,7 +681,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "json":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -691,7 +691,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "covid":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -701,7 +701,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )         
     elif query.data == "ping":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -711,7 +711,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fun":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -721,7 +721,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "ban":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -731,7 +731,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "purge":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -741,7 +741,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "tgraph":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -751,7 +751,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )       
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -761,7 +761,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "imbd":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -771,11 +771,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "hud":
         buttons = [[
-            InlineKeyboardButton('𝖠𝗎𝗍𝗈', callback_data='autofilter'),
-            InlineKeyboardButton('𝖬𝖺𝗇𝗎𝖺𝗅', callback_data='manual')
+            InlineKeyboardButton('ᴀᴜᴛᴏ', callback_data='autofilter'),
+            InlineKeyboardButton('ᴍᴀɴᴜᴀʟ', callback_data='manual')
             ],[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help'),
-            InlineKeyboardButton('𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -785,8 +785,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "manual":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='hud'),
-            InlineKeyboardButton('𝖡𝗎𝗍𝗍𝗈𝗇', callback_data='button')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='hud'),
+            InlineKeyboardButton('ʙᴜᴛᴛᴏɴ', callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -796,7 +796,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "button":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='manual')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='manual')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -806,7 +806,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "paste":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -816,7 +816,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "autofilter":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='hud')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='hud')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -826,7 +826,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "coct":
         buttons = [[
-            InlineKeyboardButton('𝖡𝖺𝖼𝗄', callback_data='help')
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -867,7 +867,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "stats":
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
+            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -886,7 +886,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rfrsh":
         await query.answer("Fetching MongoDb DataBase")
         buttons = [[
-            InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
+            InlineKeyboardButton('👩‍🦯 ʙᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('♻️', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1042,7 +1042,7 @@ async def auto_filter(client, msg: pyrogram.types.Message, spoll=False):
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="ɴᴏ ᴘᴀɢᴇs", callback_data="pages")]
+            [InlineKeyboardButton(text="ɴᴏ ᴘᴀɢᴇs ᴀᴠᴀɪʟᴀʙʟᴇ", callback_data="pages")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
