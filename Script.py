@@ -25,7 +25,7 @@ class script(object):
 """
     ABOUT_TXT = """
 ● ᴍʏ ɴᴀᴍᴇ : Dʜʏᴀɴ
-● ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/DKxBOTz'><ᴅᴋ>
+● ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/DKxBOTs'><ᴅᴋ>
 ● ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
 ● ʟɪʙʀᴀʀʏ : ᴘʀᴏɢʀᴀᴍ
 ● ʙᴏᴛ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
