@@ -24,19 +24,19 @@ class script(object):
 - /stickerid - 𝖦𝖾𝗍 𝖨𝖣
 """
     ABOUT_TXT = """
-● ᴍʏ ɴᴀᴍᴇ : Vɪᴊᴀʏ
-● ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/DKxBOTz'><ᴅᴋ/a>
+● ᴍʏ ɴᴀᴍᴇ : Dʜʏᴀɴ
+● ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/DKxBOTz'><ᴅᴋ>
 ● ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ 
 ● ʟɪʙʀᴀʀʏ : ᴘʀᴏɢʀᴀᴍ
 ● ʙᴏᴛ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ
 ● ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴀɴɢᴏ ᴅʙ
 """
     SOURCE_TXT = """<b>NOTE:</b>
-- 𝖵𝗂𝗃𝖺𝗒 𝖨𝗌 𝖺 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍 𝖻𝗒 𝖳𝖾𝖺𝗆 @DKxBOTz  
+- Dhyan 𝖨𝗌 𝖺 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍 𝖻𝗒 𝖳𝖾𝖺𝗆 @DKxBOTz  
 
 CODES:
 
-» https://github.com/Dk-Botz/TovinoBotV3
+» https://github.com/Dk-Botz/VijayBot
 """
     TTS_TXT = """<b>TEXT TO SPEACH</b>
 Simple Telegram Text-To-Speech Module.
