@@ -426,12 +426,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             msg = await client.send_cached_media(
                 chat_id=AUTH_CHANNEL,
                 file_id=file_id,
-                caption=f'<b>Hᴀɪ 👋 {query.from_user.mention}</b> »ʏᴏᴜʀ ғɪʟᴇ\n\n<code>[DKxBOTz] {title}</code>\n\n🍭 Gʀᴏᴜᴘ {query.message.chat.title}</b></i>',
+                caption=f'<b>Hᴀɪ 👋 {query.from_user.mention}</b> \n\n <b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTs] {title}</code>\n\n🍭 Gʀᴏᴜᴘ {query.message.chat.title}</b></i>',
                 protect_content=True if ident == "filep" else False 
             )
             msg1 = await query.message.reply(
                 f'<b> Hᴀɪ 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Yᴏᴜʀ Fɪʟᴇ Is Rᴇᴀᴅʏ</b>\n\n'           
-                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTz] {title}</code>\n\n'              
+                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DKxBOTs] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>',
                 True,
                 'html',
@@ -441,7 +441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             InlineKeyboardButton('📥 Dᴏᴡɴʟᴏᴀᴅ ʟɪɴK 📥 ', url = msg.link)
                         ],                       
                         [
-                            InlineKeyboardButton("⚠️ Cᴀɴ'ᴛ ᴀᴄᴄᴇsS ❓ Cʟɪᴄᴋ ʜᴇʀE ⚠️", url=f'https://t.me/FILTERxAUTOBOT')
+                            InlineKeyboardButton("⚠️ Cᴀɴ'ᴛ ᴀᴄᴄᴇsS ❓ Cʟɪᴄᴋ ʜᴇʀE ⚠️", url=f'https://t.me/DHYANxBOT')
                         ]
                     ]
                 )
